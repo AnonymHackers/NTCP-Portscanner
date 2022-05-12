@@ -1,0 +1,11 @@
+NTCP.py -select <Target Ip/Website> -thread <How much ports you will scanning> end   for Scanning a Target Server printing open and closed ports and its not fast
+
+
+
+NTCP.py -select <Target Ip/Website> -thread <How much ports you will scanning> -print-open for Scanning again but its printing only open ports and its not fast
+
+
+
+                                                                    When you want only print open ports
+                                                                                    |
+NTCP.py -select <Target Ip/Website> -thread <How much ports you will scanning> -print-open -with-speed <How Much speed example: 0.1> for scanning again but its printing only open ports and you can change the speed from the scan
